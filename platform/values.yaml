@@ -142,6 +142,7 @@ odo:
   enabled: true
 kafka:
   enabled: true
+  replicas: 3
   storage:
     enable: false
     storageSize: 5Gi
